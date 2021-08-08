@@ -1,0 +1,13 @@
+input(x);
+print(typeof(x));
+
+function foo(x,y)  {
+print(x+y);
+local print= y;
+::print(print);
+
+function h(a)  {
+return x+y+a;
+}
+y = h(::x);
+}
